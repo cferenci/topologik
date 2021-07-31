@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/topologik/static/css/main.83b5dced.chunk.css",
+    "main.js": "/topologik/static/js/main.d029983d.chunk.js",
+    "main.js.map": "/topologik/static/js/main.d029983d.chunk.js.map",
+    "runtime-main.js": "/topologik/static/js/runtime-main.835da49c.js",
+    "runtime-main.js.map": "/topologik/static/js/runtime-main.835da49c.js.map",
+    "static/js/2.255a597c.chunk.js": "/topologik/static/js/2.255a597c.chunk.js",
+    "static/js/2.255a597c.chunk.js.map": "/topologik/static/js/2.255a597c.chunk.js.map",
+    "index.html": "/topologik/index.html",
+    "static/css/main.83b5dced.chunk.css.map": "/topologik/static/css/main.83b5dced.chunk.css.map",
+    "static/js/2.255a597c.chunk.js.LICENSE.txt": "/topologik/static/js/2.255a597c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.835da49c.js",
+    "static/js/2.255a597c.chunk.js",
+    "static/css/main.83b5dced.chunk.css",
+    "static/js/main.d029983d.chunk.js"
+  ]
+}
