@@ -129,6 +129,8 @@ hr {
   content: "" !important;
   transition: width 0.2s !important;
 }
+
+
 .navbar-toggle {
   border-radius: 0;
 }
@@ -205,6 +207,14 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show > .nav-link {
+  border-bottom: 2px solid #2e2e2e;
+  transition: width 0.2s;
+  bottom: -1px !important;
+}
+
 /* Header Section */
 .intro {
   display: table;

@@ -1,8 +1,13 @@
+
+import { Container } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+
 export const Navigation = (props) => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
-        <div className='navbar-header'>
+    <Navbar collapseOnSelect expand="lg" bg="light" fixed="top" id='menu' className='navbar navbar-default'>
+      <Container>
+        {/* <div className='navbar-header'>
           <button
             type='button'
             className='navbar-toggle collapsed'
@@ -18,19 +23,36 @@ export const Navigation = (props) => {
           <a className='navbar-brand page-scroll' href='#page-top'>
             <img src="img/topologik-logo.svg" width="150" alt="" />
           </a>{' '}
-        </div>
+        </div> */}
+
+        <Navbar.Brand href="#page-top"><img src="img/topologik-logo.svg" width="150" alt="" /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#features">Our Mission</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#portfolio">Projects</Nav.Link>
+            <Nav.Link href="#testimonials">Testimonials</Nav.Link>
+            <Nav.Link href="#team">Team</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+
+          </Nav>
+        </Navbar.Collapse>
 
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
+        
+
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
                 Our Mission
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#about' className='page-scroll'>
                 About
               </a>
@@ -59,10 +81,14 @@ export const Navigation = (props) => {
               <a href='#contact' className='page-scroll'>
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
-      </div>
-    </nav>
+      </Container>
+    </Navbar>
+
+
+
+
   )
 }
